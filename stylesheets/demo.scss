@@ -1,0 +1,45 @@
+// CSS Needed for demos here
+// Put page styling elsewhere
+@import 'grid';
+  $gutter: 5em;
+
+
+.wrapper {
+  overflow: hidden;
+
+  aside {
+    display: block;
+    @extend %sham-narrow;
+  }
+
+  section#main {
+    @extend %sham-wide;
+
+  }
+}
+
+header.sham-purple {
+  overflow: hidden;
+}
+.sham-half {
+  @extend %sham-half;
+}
+
+.columns {
+  padding: 0;
+}
+.foo {
+  @extend %sham-third;
+  .inner {
+    padding: .5em;
+    background-color:   lighten( #569AAA, 40% );
+  }
+}
+
+.bar {
+  @extend %sham-half;
+  .inner {
+    padding: .5em;
+    background-color:   lighten( #A3B57B, 30% );
+  }
+}
