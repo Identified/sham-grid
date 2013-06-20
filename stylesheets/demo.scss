@@ -43,3 +43,11 @@ header.sham-purple {
     background-color:   lighten( #A3B57B, 30% );
   }
 }
+
+.baddabing {
+    @extend %sham-single-panel;
+    .inner {
+      padding: 1em;
+      background-color:   lighten( #7DB1A9, 30% );
+    }
+}
