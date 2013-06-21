@@ -1,19 +1,14 @@
-.baddabing {
-  *zoom: 1; }
-  .baddabing::before, .baddabing::after {
-    content: " ";
-    display: table; }
-  .baddabing::after {
-    clear: both; }
-
-.baddabing {
-  margin-top: 2em;
-  float: none;
-  margin: 0 auto;
-  padding-left: 0;
-  padding-right: 0;
-  width: 20em; }
-
+@media (min-width: 20em) {
+  .baddabing {
+    margin-top: 2em;
+    float: none;
+    margin: 0 auto;
+    max-width: 20em;
+    padding-left: 0;
+    padding-right: 0; } }
+@media (min-width: 20em) and (min-width: 60em) {
+  .baddabing {
+    max-width: 100em; } }
 @media (min-width: 20em) {
   .wrapper aside {
     float: none;
@@ -97,6 +92,8 @@ header.sham-purple {
   padding: .5em;
   background-color: #e7ecdd; }
 
-.baddabing .inner {
-  padding: 1em;
-  background-color: #ddeae8; }
+.baddabing {
+  width: 40em; }
+  .baddabing .inner {
+    padding: 1em;
+    background-color: #ddeae8; }

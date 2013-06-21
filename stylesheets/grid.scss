@@ -16,15 +16,23 @@ $gutter: 2em;
 
 
 // Simple centered box
+  @media (min-width : 20em) {
   %sham-single-panel {
     margin-top: 2em;
     float: none;
     margin: 0 auto;
+    max-width: 20em;
     padding-left: 0;
     padding-right: 0;
-    width: 20em;
     @extend %clearfix;
   }
+
+  @media (min-width : 60em) {
+    %sham-single-panel {
+      max-width: 100em;
+    }
+  }
+}
 
 // Golden ratio columns
 
