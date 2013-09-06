@@ -1,8 +1,7 @@
 $gutter: 2em;
 
-%clearfix {
+@mixin clearfix {
   *zoom: 1;
-
   &::before,
   &::after {
       content: " ";
@@ -23,7 +22,7 @@ $gutter: 2em;
     max-width: 20em;
     padding-left: 0;
     padding-right: 0;
-    @extend %clearfix;
+    @include clearfix;
   }
 
   @media (min-width : 60em) {
@@ -32,7 +31,6 @@ $gutter: 2em;
     }
   }
 }
-
 
 // Golden ratio columns
 
@@ -49,7 +47,7 @@ $gutter: 2em;
     margin: 0 auto;
     padding-left: 0;
     min-width: 20em;
-    @extend %clearfix;
+    @include clearfix;
   }
 }
 
@@ -84,7 +82,7 @@ $gutter: 2em;
     padding-left: 0;
     padding-right: 0;
     min-width: 20em;
-    @extend %clearfix;
+    @include clearfix;
   }
 }
 
@@ -102,7 +100,6 @@ $gutter: 2em;
   }
 }
 
-
 // Third columns
 
 @media (min-width : 20em) {
@@ -113,7 +110,7 @@ $gutter: 2em;
     padding-left: 0;
     padding-right: 0;
     min-width: 20em;
-    @extend %clearfix;
+    @include clearfix;
   }
 }
 
