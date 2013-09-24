@@ -92,7 +92,7 @@ $gutter: 2em;
 
   %sham-sidebar {
     float: left;
-    width: 30%;
+    width: 20%;
     min-width: 0;
     padding-right: $gutter * .5;
   }
@@ -100,7 +100,7 @@ $gutter: 2em;
   %sham-main {
     float: left;
     padding-left: $gutter * .5;
-    width: 70%;
+    width: 80%;
     min-width: 0;
   }
 }
