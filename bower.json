@@ -1,6 +1,6 @@
 {
   "name": "sham-grid",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "sham-grid.scss",
   "ignore": [
     "**/.*",
