@@ -1,4 +1,4 @@
-$gutter: 2em;
+$gutter: 2rem;
 
 @mixin clearfix {
   *zoom: 1;
@@ -16,44 +16,44 @@ $gutter: 2em;
 
 // Media queries
 // Simple centered box
-  @media (min-width : 20em) {
+  @media (min-width : 20rem) {
   %sham-single-panel {
-    margin-top: 2em;
+    margin-top: 2rem;
     float: none;
     margin: 0 auto;
-    max-width: 20em;
+    max-width: 20rem;
     padding-left: 0;
     padding-right: 0;
     @include clearfix;
   }
 
-  @media (min-width : 60em) {
+  @media (min-width : 60rem) {
     %sham-single-panel {
-      max-width: 100em;
+      max-width: 100rem;
     }
   }
 }
 
 // Golden ratio columns
 
-@media (min-width : 20em) {
+@media (min-width : 20rem) {
   %sham-narrow {
     float: none;
     margin: 0 auto;
-    min-width: 20em;
+    min-width: 20rem;
   }
 
   %sham-wide{
-    margin-top: 2em;
+    margin-top: 2rem;
     float: none;
     margin: 0 auto;
     padding-left: 0;
-    min-width: 20em;
+    min-width: 20rem;
     @include clearfix;
   }
 }
 
-@media (min-width : 60em) {
+@media (min-width : 60rem) {
 
   %sham-narrow {
     float: left;
@@ -73,24 +73,24 @@ $gutter: 2em;
 
 // Traditional ratio columns
 
-@media (min-width : 20em) {
+@media (min-width : 20rem) {
   %sham-sidebar {
     float: none;
     margin: 0 auto;
-    min-width: 20em;
+    min-width: 20rem;
   }
 
   %sham-main{
-    margin-top: 2em;
+    margin-top: 2rem;
     float: none;
     margin: 0 auto;
     padding-left: 0;
-    min-width: 20em;
+    min-width: 20rem;
     @include clearfix;
   }
 }
 
-@media (min-width : 60em) {
+@media (min-width : 60rem) {
 
   %sham-sidebar {
     float: left;
@@ -112,19 +112,19 @@ $gutter: 2em;
 // Half columns
 // tiny screens
 
-@media (min-width : 20em) {
+@media (min-width : 20rem) {
   %sham-half {
-    margin-top: 2em;
+    margin-top: 2rem;
     float: none;
     margin: 0 auto;
     padding-left: 0;
     padding-right: 0;
-    min-width: 20em;
+    min-width: 20rem;
     @include clearfix;
   }
 }
 
-@media (min-width : 60em) {
+@media (min-width : 60rem) {
   %sham-half {
     float: left;
     width: 50%;
@@ -140,19 +140,19 @@ $gutter: 2em;
 
 // Third columns
 
-@media (min-width : 20em) {
+@media (min-width : 20rem) {
   %sham-third {
-    margin-top: 2em;
+    margin-top: 2rem;
     float: none;
     margin: 0 auto;
     padding-left: 0;
     padding-right: 0;
-    min-width: 20em;
+    min-width: 20rem;
     @include clearfix;
   }
 }
 
-@media (min-width : 60em) {
+@media (min-width : 60rem) {
   %sham-third {
     float: left;
     width: 33.33%;
